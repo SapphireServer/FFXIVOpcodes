@@ -5,36 +5,33 @@ A shared effort to maintain FFXIV opcode mappings
 
 ```json
 {
-  [
-    "channel": "clientChannelName",
-    "comment": ""
-    {
-      "opName": "someName",
-      "opCode": 64,
-      "comment": "Updated Version X.Y"
-    },
-    {
-      "opName": "someOtherName",
-      "opCode": 65,
-      "comment": "Updated Version X.Y"
-    },
-    ...
-  ],
-  [
-    "channel": "ServerChannelName",
-    "comment": ""
-    {
-      "opName": "someName",
-      "opCode": 124,
-      "comment": "Updated Version X.Y"
-    },
-    {
-      "opName": "someOtherName",
-      "opCode": 135,
-      "comment": "Updated Version X.Y"
-    },
-    ...
-  ],
-  ...
+	"opcodeList": [{
+			"clientChannelName": [{
+					"opName": "someName",
+					"opCode": 64,
+					"version": 5110
+				},
+				{
+					"opName": "someOtherName",
+					"opCode": 65,
+					"version": 5110
+				}
+			]
+		},
+		[{
+			"serverChannelName": [{
+					"opName": "someName",
+					"opCode": 64,
+					"version": 5110
+				},
+				{
+					"opName": "someOtherName",
+					"opCode": 65,
+					"version": 5110
+				}
+			]
+		}]
+	]
+
 }
 ```
