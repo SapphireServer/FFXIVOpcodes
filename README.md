@@ -10,15 +10,15 @@ A shared effort to maintain FFXIV opcode mappings
     {
       "clientChannelName": 
         [
-          { "opName": "someName", "opCode": 64, "version": 5110 },
-          { "opName": "someOtherName", "opCode": 65, "version": 5110 }
+          { "someName": {  "opCode": 64, "version": 5110 } },
+          { "someOtherName": { "opCode": 65, "version": 5110 } }
         ]
     },
     {
       "serverChannelName": 
         [
-          { "opName": "someName", "opCode": 64, "version": 5110 },
-          { "opName": "someOtherName", "opCode": 65, "version": 5110 }
+          { "someName": { "opCode": 64, "version": 5110 },
+          { "someOtherName": { "opCode": 65, "version": 5110 }
         ]
     }
   ]
