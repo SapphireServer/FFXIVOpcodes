@@ -1,7 +1,7 @@
 # FFXIVOpcodes
 A shared effort to maintain FFXIV opcode mappings
 
-# Opcode Lists
+# Proposed Format for Opcode Lists
 
 ```json
 [
