@@ -5,7 +5,7 @@ A shared effort to maintain FFXIV opcode mappings
 
 ```json
 {
-  {
+  [
     "channel": "clientChannelName",
     "comment": ""
     {
@@ -19,8 +19,8 @@ A shared effort to maintain FFXIV opcode mappings
       "comment": "Updated Version X.Y"
     },
     ...
-  },
-  {
+  ],
+  [
     "channel": "ServerChannelName",
     "comment": ""
     {
@@ -34,7 +34,7 @@ A shared effort to maintain FFXIV opcode mappings
       "comment": "Updated Version X.Y"
     },
     ...
-  },
+  ],
   ...
 }
 ```
