@@ -3,7 +3,7 @@ A shared effort to maintain FFXIV opcode mappings
 
 # Opcode Lists
 
-```
+```json
 {
   {
     "channel": "clientChannelName",
