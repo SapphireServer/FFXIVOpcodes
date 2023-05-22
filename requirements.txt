@@ -1,2 +1,2 @@
-requests==2.22.0
+requests==2.31.0
 CppHeaderParser==2.7.4
